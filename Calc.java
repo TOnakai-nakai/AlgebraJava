@@ -28,7 +28,7 @@ public class Calc {
 
         //多項式環
         QuatientField<Integer> r3 = new QuatientField<>(new Integer(0), new Integer(1));
-        QuatientField<Integer> r4 = new QuatientField<>(new Integer(1), new Integer(-1));
+        QuatientField<Integer> r4 = new QuatientField<>(new Integer(-1), new Integer(1));
         QuatientField<Integer> r5 = new QuatientField<>(new Integer(1), new Integer(1));
 
         Poly<QuatientField<Integer>> p1 = new Poly<>(new ArrayList<>(Arrays.asList(r5, r3, r5)), "x");
